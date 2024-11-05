@@ -7,6 +7,7 @@
 
 import Flutter
 import Foundation
+@preconcurrency
 import WebKit
 
 public class InAppWebView: WKWebView, UIScrollViewDelegate, WKUIDelegate,
